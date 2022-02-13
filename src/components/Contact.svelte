@@ -55,13 +55,15 @@
 			<div class="w-full">
 				<h2 class="mb-6 text-lg font-bold md:text-xl">Are you interested in working with me?</h2>
 				<p class="mb-3 text-base font-medium md:mb-8 md:text-lg">
-					Email me at <a href="mailto:bucsailaca@gmail.com" class="underline"
+					Email me at <a target="_blank" href="mailto:bucsailaca@gmail.com" class="underline"
 						>bucsailaca@gmail.com</a
 					>.
 				</p>
 				<p class="mb-4 text-base font-medium md:mb-8 md:text-lg">
-					You can find me on GitHub as <a class="underline" href="https://github.com/Laci556"
-						>Laci556</a
+					You can find me on GitHub as <a
+						target="_blank"
+						class="underline"
+						href="https://github.com/Laci556">Laci556</a
 					>.
 				</p>
 				<p class="text-lg font-medium md:text-xl">
