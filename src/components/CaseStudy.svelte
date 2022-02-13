@@ -7,8 +7,8 @@
 	export let tech = [];
 </script>
 
-<div class="flex h-full items-center">
-	<div class="w-1/2">
+<div class="flex h-full flex-col items-center justify-between md:flex-row">
+	<div class="mb-6 mt-8 w-full md:mb-0 md:mt-0 md:w-1/2">
 		<div>
 			<slot name="header" />
 		</div>
@@ -25,12 +25,14 @@
 				{/each}
 			</div>
 		</div>
-		<div class="text-lg font-normal">
+		<div class="font-normal md:text-lg">
 			<slot name="content" />
 		</div>
 	</div>
 
-	<div class="ml-4 h-full w-1/2 flex-1 overflow-clip py-4 md:ml-8 lg:ml-16">
+	<div
+		class="mb-2 w-full flex-1 overflow-hidden py-4 md:mb-0 md:ml-8 md:h-full md:max-h-full md:w-1/2 lg:ml-16"
+	>
 		<ImageGrid images={[...images, ...images]} {index} {mockup} />
 	</div>
 </div>

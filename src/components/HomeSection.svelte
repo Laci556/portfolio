@@ -28,7 +28,7 @@
 	on:exit={() => {
 		visible = false;
 	}}
-	class="container mx-auto h-screen max-w-screen-lg select-none snap-start px-8 lg:px-2 {classes} {text &&
+	class="container mx-auto h-screen max-w-screen-lg select-none snap-start px-6 md:px-8 lg:px-4 {classes} {text &&
 		`text-[${text}]`}"
 >
 	<slot {visible} {firstVisible} />

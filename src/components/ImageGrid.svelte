@@ -43,7 +43,7 @@
 
 <svelte:window bind:innerHeight={viewHeight} />
 
-<div class="h-full overflow-clip rounded-sm">
+<div class="h-full overflow-hidden rounded-sm">
 	<div class="flex gap-4">
 		<div
 			class="flex flex-1 flex-col gap-4"

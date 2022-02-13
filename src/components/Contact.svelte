@@ -6,10 +6,10 @@
 
 <HomeSection background="#e8def7" text="#231042" class="flex flex-col">
 	<div class="flex flex-1 items-center">
-		<div class="flex flex-row gap-8">
+		<div class="flex flex-col gap-12 md:flex-row md:gap-8">
 			<div class="w-full">
-				<h2 class="mb-6 text-2xl font-bold">Programming experience</h2>
-				<p class="mb-4 text-lg font-medium">
+				<h2 class="mb-6 text-xl font-bold md:text-2xl">Programming experience</h2>
+				<p class="mb-4 text-base font-medium md:text-lg">
 					I have been developing websites for 3+ years using JavaScript frameworks. I have
 					experience with <span class="inline-block"
 						><b>Svelte</b>
@@ -25,7 +25,7 @@
 						<img src="icons/vue-svgrepo-com.svg" alt="React" class="inline w-5" />.</span
 					>
 				</p>
-				<p class="text-lg font-medium">
+				<p class="text-base font-medium md:text-lg">
 					For my projects’ back-end <span class="inline-block"
 						><b>Node.js</b>
 						<img src="icons/logo-nodejs-svgrepo-com.svg" alt="React" class="inline w-5" /></span
@@ -45,22 +45,26 @@
 				</p>
 			</div>
 			<div class="w-full">
-				<h2 class="mb-6 text-xl font-bold">Are you interested in working with me?</h2>
-				<p class="mb-8 text-lg font-medium">
+				<h2 class="mb-6 text-lg font-bold md:text-xl">Are you interested in working with me?</h2>
+				<p class="mb-3 text-base font-medium md:mb-8 md:text-lg">
 					Email me at <a href="mailto:bucsailaca@gmail.com" class="underline"
 						>bucsailaca@gmail.com</a
 					>.
 				</p>
-				<p class="mb-8 text-lg font-medium">
+				<p class="mb-4 text-base font-medium md:mb-8 md:text-lg">
 					You can find me on GitHub as <a class="underline" href="https://github.com/Laci556"
 						>Laci556</a
 					>.
 				</p>
-				<p class="text-xl font-medium">You made it here? Thank you for checking out my website!</p>
+				<p class="text-lg font-medium md:text-xl">
+					You made it here? Thank you for checking out my website!
+				</p>
 			</div>
 		</div>
 	</div>
 	<div class="h-10 w-full">
-		<p class="text-center">Made with Svelte + Tailwind | &copy; 2022 László Bucsai</p>
+		<p class="text-center text-sm md:text-base">
+			Made with Svelte + Tailwind | <span class="inline-block">&copy; 2022 László Bucsai</span>
+		</p>
 	</div>
 </HomeSection>

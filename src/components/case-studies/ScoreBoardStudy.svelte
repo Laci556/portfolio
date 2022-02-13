@@ -6,14 +6,12 @@
 
 <HomeSection class="flex items-center justify-center" background="#f9edc8" text="#372b06">
 	<CaseStudy
-		images={[1, 7, 6, 2, 4, 3, 5].map((v) => `scoreboard${v}.jpg`)}
+		images={[1, 7, 6, 2, 4, 3, 5].map((v) => `scoreboard/scoreboard${v}.jpg`)}
 		index={3}
 		tech={['Electron', 'Svelte']}
 	>
 		<svelte:fragment slot="header">
-			<h2 style="font-family: 'Avenir Next', sans-serif;" class="text-2xl font-bold tracking-wide">
-				SCORE<span class="ml-1 bg-[#372b06] px-1 text-[#f9edc8]">BOARD</span>
-			</h2>
+			<img src="images/scoreboard/scoreboard.svg" alt="SCOREBOARD" class="h-8" />
 		</svelte:fragment>
 		<svelte:fragment slot="desc"
 			>A scoreboard controller developed for the sports center in Balmazújváros</svelte:fragment
