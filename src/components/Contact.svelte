@@ -13,34 +13,42 @@
 					I have been developing websites for 3+ years using JavaScript frameworks. I have
 					experience with <span class="inline-block"
 						><b>Svelte</b>
-						<img src="icons/svelte-svgrepo-com.svg" alt="Svelte" class="inline w-5" />,</span
+						<img
+							src="icons/svelte-svgrepo-com.svg"
+							alt="Svelte"
+							class="inline w-3.5 md:w-4"
+						/>,</span
 					>
 					<span class="inline-block"
 						><b>React / React Native</b>
-						<img src="icons/react-svgrepo-com.svg" alt="React" class="inline w-5" /></span
+						<img src="icons/react-svgrepo-com.svg" alt="React" class="inline w-4 md:w-5" /></span
 					>
 					and
 					<span class="inline-block"
 						><b>Vue</b>
-						<img src="icons/vue-svgrepo-com.svg" alt="React" class="inline w-5" />.</span
+						<img src="icons/vue-svgrepo-com.svg" alt="React" class="w-3.4 inline md:w-4" />.</span
 					>
 				</p>
 				<p class="text-base font-medium md:text-lg">
 					For my projects’ back-end <span class="inline-block"
 						><b>Node.js</b>
-						<img src="icons/logo-nodejs-svgrepo-com.svg" alt="React" class="inline w-5" /></span
+						<img
+							src="icons/logo-nodejs-svgrepo-com.svg"
+							alt="React"
+							class="inline w-4 md:w-5"
+						/></span
 					>
 					is my go-to, using <b>Express</b> or <b>serverless</b> functions to build APIs, however, I
 					am a huge fan of BaaS solutions such as <b>Firebase</b> and <b>Supabase</b>. I am
 					currently learning and experimenting with
 					<span class="inline-block"
 						><b>Flutter</b>
-						<img src="icons/flutter-svgrepo-com.svg" alt="React" class="inline w-5" /></span
+						<img src="icons/flutter-svgrepo-com.svg" alt="React" class="inline w-3.5" /></span
 					>
 					and
 					<span class="inline-block"
 						><b>Go</b>
-						<img src="icons/go-svgrepo-com.svg" alt="React" class="inline w-5" />.</span
+						<img src="icons/go-svgrepo-com.svg" alt="React" class="inline w-6 md:w-7" />.</span
 					>
 				</p>
 			</div>

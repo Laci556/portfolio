@@ -33,10 +33,12 @@
 	>
 		<HomeSection
 			let:firstVisible
-			class="flex items-center justify-center font-black"
+			class="flex flex-col items-center justify-between font-black"
 			background="#D9E5D6"
 			text="#096971"
 		>
+			<div class="h-16 w-full" />
+
 			<div>
 				{#if firstVisible}
 					<h3
@@ -60,6 +62,14 @@
 					</h3>
 				{/if}
 			</div>
+
+			<div class="flex h-16 -translate-x-2 flex-col items-center opacity-75">
+				{#if firstVisible}
+					<p class="mb-2 animate-bounce text-center text-lg" in:fade={{ delay: 1500 }}>
+						Scroll down for more
+					</p>
+				{/if}
+			</div>
 		</HomeSection>
 
 		<HomeSection
@@ -69,7 +79,7 @@
 			text="#096971"
 		>
 			{#if firstVisible}
-				<p class="mb-20 max-w-xl text-center text-xl md:text-2xl" in:fade>
+				<p class="mb-20 max-w-2xl text-center text-xl md:text-2xl" in:fade>
 					I’m a Computer Science student at ELTE who loves experimenting with new technologies and
 					creating cool apps.
 				</p>
