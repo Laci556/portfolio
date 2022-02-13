@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('../fonts/AvenirNext.otf');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('../fonts/AvenirNext-Bold.otf');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
