@@ -14,13 +14,12 @@
 </script>
 
 <svelte:head>
-	<title>László Bucsai</title>
 	<meta name="theme-color" content={$bg} />
 </svelte:head>
 
 <div
 	id="main-scroll"
-	class="transition-colors duration-500 bg-[{$bg}] h-screen snap-y snap-mandatory overflow-y-scroll overscroll-contain overscroll-x-none"
+	class="transition-colors duration-500 bg-[{$bg}] h-full snap-y snap-mandatory overflow-y-scroll overscroll-contain overscroll-x-none"
 >
 	<HomeSection
 		let:firstVisible
